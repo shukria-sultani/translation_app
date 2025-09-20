@@ -43,8 +43,9 @@ body {
 
 .header-container h1 {
     color: #32CD32;
-    line-height: 1.2;
+    line-height: 1;
     font-size: clamp(1.5rem, 5vw, 2.5rem);
+    text-align: left;
 }
 
 .header-container span {
@@ -141,4 +142,27 @@ textarea {
     .translation-form {
         max-width: 100%;
     }
+}
+.translation-result {
+  margin-top: 20px;
+  padding: 20px;
+  border: 3px solid #035A9D;
+  border-radius: 7px;
+  background-color: #f9f9f9;
+  width: 100%;
+  max-width: 400px;
+}
+
+.translation-result h3 {
+  color: #035A9D;
+}
+
+.translation-error {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fdd;
+  border: 1px solid #f00;
+  color: #f00;
+  border-radius: 7px;
+  text-align: center;
 }

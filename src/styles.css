@@ -65,7 +65,7 @@ textarea{
     justify-content: center;
     align-items: center;
     gap: 7px;
-    /* flex-direction: column; */
+
 }
 .form-container button{
     background-color: #035A9D;

@@ -1,18 +1,29 @@
+* {
+    font-family: "Roboto", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
 
+.roboto-font {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+}
 .header{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .header-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
+    width: 100%;
+    max-width: 355px;
     gap: 10px;
     background-color: #0D182E;
     background-image: url(./assets//images/mp.png);
-    padding: 30px;
+    padding: 70px;
 }
 .header-container div{
     display: flex;
@@ -22,30 +33,32 @@
 }
 .header-container h1{
     color: #32CD32;
-    line-height: 0.5;
+    line-height: 1;
 
 }
 .header-container span{
     color: white;
     font-size: small;
     font-weight: bolder;
-    line-height: ;
+
 }
 .translation-form{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
-    padding: 40px;
-    border: 2px solid #EFF0F4;
-    max-width: 600px;
+    gap: 15px;
+    padding: 30px;
+    border: 3px solid #252F42;
+    max-width: 500px;
+    border-radius: 7px;
 }
 .form-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 40px;
 }
 .translation-form label{
     color: #035A9D;
@@ -53,24 +66,40 @@
     font-size: large;
 }
 textarea{
-    min-width: 400px;
-    height:150px;
+    min-width: 380px;
+    height:140px;
     resize: none;
     border: none;
     border-radius: 7px;
     background-color: #EFF0F4;
+    padding: 15px;
+    font-size: large;
+    font-weight: 500;
 }
-.languages{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 7px;
+.languages {
+  display: flex;
+  flex-direction: column; 
+}
 
+.radio-option {
+  display: flex;         
+  align-items: center;  
+  gap: 8px;             
+  margin-bottom: 10px;  
+  color:#333333 ; 
 }
+
+.flag-icon {
+  width: 20px;
+  height: auto;
+}
+
 .form-container button{
     background-color: #035A9D;
     color: #ffff;
     padding:10px 20px ;
     border-radius:7px ;
+    width: 100%;
     font-size: large;
+    cursor: pointer;
 }

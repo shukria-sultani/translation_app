@@ -28,7 +28,7 @@ body {
     width: 100%;
     max-width:450px;
     gap: 10px;
-    background-color: #0D182E;
+    background-color: #09101f;
     background-image: url(./assets/images/mp.png);
     background-size: cover;
     background-position: center;
@@ -46,6 +46,7 @@ body {
     line-height: 1;
     font-size: clamp(1.5rem, 5vw, 2.5rem);
     text-align: left;
+
 }
 
 .header-container span {
